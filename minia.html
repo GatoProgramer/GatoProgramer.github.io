@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CRUCIGRAMA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script src="bootstrap.min.js"></script>
+   <!-- Favicons -->
+   <link href="pw.png" rel="icon">
+   <link href="pw.png" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons.css" rel="stylesheet">
+  <link href="swiper-bundle.min.css" rel="stylesheet">
+  <link href="glightbox.min.css" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="variables.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link href="cosa.css" rel="stylesheet">
+  
+    <style>
+      body {
+        background: url("fa.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      #mensaje {
+        width: 300px;
+      }
+      .col-md-12 {
+        padding: 0 0 0 38%;
+      }
+      .casilla {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+      }
+      .table {
+        width: 300px;
+      }
+      .table td,
+      th {
+        padding: 0;
+      }
+
+      @media (max-width: 600px) {
+        .col-md-12 {
+          padding: 0 0 0 18%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+  
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>The student newscast</h1>
+        </a>
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="about.html">sobre</a></li>
+          </ul>
+        </nav><!-- .navbar -->
+  
+        <div class="position-relative">
+  
+          <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+  
+          <!-- ======= Search Form ======= -->
+          <div class="search-form-wrap js-search-form-wrap">
+            <form action="search-result.html" class="search-form">
+              <span class="icon bi-search"></span>
+              <input type="text" placeholder="Search" class="form-control">
+              <button class="btn js-search-close"><span class="bi-x"></span></button>
+            </form>
+          </div><!-- End Search Form -->
+  
+        </div>
+  
+      </div>
+  
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="col-md-12">
+      <a href="https://www.educima.com/crosswords/quinind-9d49e18cd0d00b1ee98b04a4ab6d6621 "><img src="crusite.png" /></a><br />
+    
+      <div id="mensaje"></div>
+    
+      <b>Busca la palabra que describe la imagen complete en el link de la imagen</b><br />
+      <table class="table">
+        <tr>
+          <td>
+            Horizontales<br />
+             <p>Mouse</p>
+              <p>Computadoras</p>
+              <p>Fuente de poder</p>
+              <p>Ram</p>
+              <p>Rom</p>
+              <p>Software</p>
+              <p>Socket</p>
+              <p>Disco duro</p>
+              <p>Cpu</p>
+          </td>
+          <td>
+            Verticales<br />
+            <p>hardware</p>
+           <p>Rarunas</p>
+            <p>Teclado</p>
+            <p>Sata</p>
+            <p>Microprocesador</p>
+            <p>Usb</p>
+            <p>Pantalla</p>
+          </td>
+        </tr>
+      </table>
+    
+      <table class="table">
+        <!-- Filas para las palabras horizontales -->
+        <tr>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila1C1" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila1C2" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila1C3" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila1C4" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila1C5" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila1C6" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila2C1" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila2C2" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila2C3" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila2C4" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila2C5" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila2C6" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila3C1" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila3C2" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila3C3" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila3C4" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila3C5" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila3C6" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila4C1" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila4C2" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila4C3" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila4C4" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila4C5" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila4C6" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila5C1" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila5C2" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila5C3" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila5C4" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila5C5" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila5C6" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila6C1" />
+          </td>
+          <td>
+            <input class="casilla" type="text" maxlength="1" id="fila6C2" />
+        </td>
+        <td>
+          <input class="casilla" type="text" maxlength="1" id="fila6C3" />
+        </td>
+        <td>
+          <input class="casilla" type="text" maxlength="1" id="fila6C4" />
+        </td>
+        <td>
+          <input class="casilla" type="text" maxlength="1" id="fila6C5" />
+        </td>
+        <td>
+          <input class="casilla" type="text" maxlength="1" id="fila6C6" />
+        </td>
+        <td>
+          <input class="casilla" type="text" maxlength="1" id="fila6C7" />
+        </td>
+      </tr>
+    </table>
+    
+    <script>
+      // Deshabilitar todos los campos
+      for (fila = 1; fila <= 6; fila++) {
+        for (columna = 1; columna <= 7; columna++) {
+          document.getElementById("fila" + fila + "C" + columna).readOnly = true;
+        }
+      }
+    
+      // Habilitar las casillas necesarias (horizontales)
+      palabra1_letra1.readOnly = false;
+      palabra1_letra2.readOnly = false;
+      palabra1_letra3.readOnly = false;
+      palabra1_letra4.readOnly = false;
+      palabra1_letra5.readOnly = false;
+    
+      palabra2_letra1.readOnly = false;
+      palabra2_letra2.readOnly = false;
+      palabra2_letra3.readOnly = false;
+    
+      palabra5_letra1.readOnly = false;
+      palabra5_letra2.readOnly = false;
+      palabra5_letra3.readOnly = false;
+      palabra5_letra4.readOnly = false;
+    
+      palabra6_letra1.readOnly = false;
+      palabra6_letra2.readOnly = false;
+      palabra6_letra3.readOnly = false;
+      palabra6_letra4.readOnly = false;
+      palabra6_letra5.readOnly = false;
+    
+      palabra7_letra1.readOnly = false;
+      palabra7_letra2.readOnly = false;
+      palabra7_letra3.readOnly = false;
+      palabra7_letra4.readOnly = false;
+      palabra7_letra5.readOnly = false;
+      palabra7_letra6.readOnly = false;
+    
+      palabra10_letra1.readOnly = false;
+      palabra10_letra2.readOnly = false;
+      palabra10_letra3.readOnly = false;
+      palabra10_letra4.readOnly = false;
+      palabra10_letra5.readOnly = false;
+    
+      palabra11_letra1.readOnly = false;
+      palabra11_letra2.readOnly = false;
+      palabra11_letra3.readOnly = false;
+      palabra11_letra4.readOnly = false;
+      palabra11_letra5.readOnly = false;
+      palabra11_letra6.readOnly = false;
+    
+      palabra14_letra1.readOnly = false;
+      palabra14_letra2.readOnly = false;
+      palabra14_letra3.readOnly = false;
+      palabra14_letra4.readOnly = false;
+    
+      palabra15_letra1.readOnly = false;
+      palabra15_letra2.readOnly = false;
+      palabra15_letra3.readOnly = false;
+      palabra15_letra4.readOnly = false;
+      palabra15_letra5.readOnly = false;
+      palabra15_letra6.readOnly = false;
+    
+      palabra16_letra1.readOnly = false;
+      palabra16_letra2.readOnly = false;
+      palabra16_letra3.readOnly = false;
+      palabra16_letra4.readOnly = false;
+      palabra16_letra5.readOnly = false;
+    
+      palabra17_letra1.readOnly = false;
+      palabra17_letra2.readOnly = false;
+      palabra17_letra3.readOnly = false;
+      palabra17_letra4.readOnly = false;
+      palabra17_letra5.readOnly = false;
+      palabra17_letra6.readOnly = false;
+    
+      palabra18_letra1.readOnly = false;
+      palabra18_letra2.readOnly = false;
+      palabra18_letra3.readOnly = false;
+      palabra18_letra4.readOnly = false;
+      palabra18_letra5.readOnly = false;
+    
+      for (fila = 1; fila <= 6; fila++) {
+        for (columna = 1; columna <= 7; columna++) {
+          if (document.getElementById("fila" + fila + "C" + columna).readOnly == false) {
+            document.getElementById("fila" + fila + "C" + columna).style.backgroundColor = "#07c7e6";
+          }
+        }
+      }
+    
+      var errorActivo = 0;
+      function error() {
+        document.getElementById("mensaje").innerHTML = "Existen palabras incorrectas";
+        document.getElementById("mensaje").className = "alert alert-danger";
+        errorActivo = 1;
+      }
+    
+      // Esta función se ejecuta cada 5 segundos para ocultar el mensaje de error
+      setInterval('ocultarError()', 5000);
+    
+      function ocultarError() {
+        if (errorActivo == 1) {
+          document.getElementById("mensaje").innerHTML = "";
+          document.getElementById("mensaje").className = "";
+          errorActivo = 0;
+        }
+      }
+    
+      function verificar() {
+        document.getElementById("mensaje").innerHTML = "";
+        palabra1 = palabra1_letra1.value + palabra1_letra2.value + palabra1_letra3.value + palabra1_letra4.value + palabra1_letra5.value;
+        palabra2 = palabra2_letra1.value + palabra2_letra2.value + palabra2_letra3.value;
+        palabra3 = palabra3_letra1.value + palabra3_letra2.value + palabra3_letra3.value + palabra3_letra4.value;
+        palabra4 = palabra4_letra1.value + palabra4_letra2.value + palabra4_letra3.value + palabra4_letra4.value;
+        palabra5 = palabra5_letra1.value + palabra5_letra2.value + palabra5_letra3.value + palabra5_letra4.value;
+        palabra6 = palabra6_letra1.value + palabra6_letra2.value + palabra6_letra3.value + palabra6_letra4.value + palabra6_letra5.value;
+        palabra7 = palabra7_letra1.value + palabra7_letra2.value + palabra7_letra3.value + palabra7_letra4.value + palabra7_letra5.value + palabra7_letra6.value;
+        palabra8 = palabra8_letra1.value + palabra8_letra2.value + palabra8_letra3.value + palabra8_letra4.value + palabra8_letra5.value;
+        palabra9 = palabra9_letra1.value + palabra9_letra2.value + palabra9_letra3.value + palabra9_letra4.value;
+        palabra10 = palabra10_letra1.value + palabra10_letra2.value + palabra10_letra3.value + palabra10_letra4.value + palabra10_letra5.value;
+        palabra11 = palabra11_letra1.value + palabra11_letra2.value + palabra11_letra3.value + palabra11_letra4.value + palabra11_letra5.value + palabra11_letra6.value;
+        palabra12 = palabra12_letra1.value + palabra12_letra2.value + palabra12_letra3.value + palabra12_letra4.value + palabra12_letra5.value;
+        palabra13 = palabra13_letra1.value + palabra13_letra2.value + palabra13_letra3.value + palabra13_letra4.value + palabra13_letra5.value + palabra13_letra6.value;
+        palabra14 = palabra14_letra1.value + palabra14_letra2.value + palabra14_letra3.value + palabra14_letra4.value;
+        palabra15 = palabra15_letra1.value + palabra15_letra2.value + palabra15_letra3.value + palabra15_letra4.value + palabra15_letra5.value + palabra15_letra6.value;
+        palabra16 = palabra16_letra1.value + palabra16_letra2.value + palabra16_letra3.value + palabra16_letra4.value + palabra16_letra5.value;
+        palabra17 = palabra17_letra1.value + palabra17_letra2.value + palabra17_letra3.value + palabra17_letra4.value + palabra17_letra5.value + palabra17_letra6.value;
+        palabra18 = palabra18_letra1.value + palabra18_letra2.value + palabra18_letra3.value + palabra18_letra4.value + palabra18_letra5.value;
+    
+        if (
+          palabra1.toLowerCase() == "mouse" &&
+          palabra2.toLowerCase() == "computadora" &&
+          palabra3.toLowerCase() == "fuente" &&
+          palabra4.toLowerCase() == "ram" &&
+          palabra5.toLowerCase() == "rom" &&
+          palabra6.toLowerCase() == "software" &&
+          palabra7.toLowerCase() == "atx" &&
+          palabra8.toLowerCase() == "socket" &&
+          palabra9.toLowerCase() == "disco" &&
+          palabra10.toLowerCase() == "cpu" &&
+          palabra11.toLowerCase() == "hardware" &&
+          palabra12.toLowerCase() == "ranuras" &&
+          palabra13.toLowerCase() == "teclado" &&
+          palabra14.toLowerCase() == "sata" &&
+          palabra15.toLowerCase() == "microprocesador" &&
+          palabra16.toLowerCase() == "usb" &&
+          palabra17.toLowerCase() == "pantalla" &&
+          palabra18.toLowerCase() == "duro"
+        ) {
+          document.getElementById("mensaje").innerHTML = "¡Ganaste!";
+          document.getElementById("mensaje").style.fontSize = "24px";
+          document.getElementById("mensaje").className = "alert alert-success";
+        } else {
+          if (palabra1.toLowerCase() != "mouse") {
+            palabra1_letra1.value = "";
+            palabra1_letra2.value = "";
+            palabra1_letra3.value = "";
+            palabra1_letra4.value = "";
+            palabra1_letra5.value = "";
+            error();
+          }
+    
+          if (palabra2.toLowerCase() != "computadora") {
+            palabra2_letra1.value = "";
+            palabra2_letra2.value = "";
+            palabra2_letra3.value = "";
+            error();
+          }
+    
+          if (palabra3.toLowerCase() != "fuente") {
+            palabra3_letra1.value = "";
+            palabra3_letra2.value = "";
+            palabra3_letra3.value = "";
+            palabra3_letra4.value = "";
+            error();
+          }
+    
+          if (palabra4.toLowerCase() != "ram") {
+            palabra4_letra1.value = "";
+            palabra4_letra2.value = "";
+            palabra4_letra3.value = "";
+            palabra4_letra4.value = "";
+            error();
+          }
+    
+          if (palabra5.toLowerCase() != "rom") {
+            palabra5_letra1.value = "";
+            palabra5_letra2.value = "";
+            palabra5_letra3.value = "";
+            palabra5_letra4.value = "";
+            error();
+          }
+    
+          if (palabra6.toLowerCase() != "software") {
+            palabra6_letra1.value = "";
+            palabra6_letra2.value = "";
+            palabra6_letra3.value = "";
+            palabra6_letra4.value = "";
+            palabra6_letra5.value = "";
+            error();
+          }
+    
+          if (palabra7.toLowerCase() != "atx") {
+            palabra7_letra1.value = "";
+            palabra7_letra2.value = "";
+            palabra7_letra3.value = "";
+            palabra7_letra4.value = "";
+            palabra7_letra5.value = "";
+            palabra7_letra6.value = "";
+            error();
+          }
+    
+          if (palabra8.toLowerCase() != "socket") {
+            palabra8_letra1.value = "";
+            palabra8_letra2.value = "";
+            palabra8_letra3.value = "";
+            palabra8_letra4.value = "";
+            palabra8_letra5.value = "";
+            error();
+          }
+    
+          if (palabra9.toLowerCase() != "disco") {
+            palabra9_letra1.value = "";
+            palabra9_letra2.value = "";
+            palabra9_letra3.value = "";
+            palabra9_letra4.value = "";
+            error();
+          }
+    
+          if (palabra10.toLowerCase() != "cpu") {
+            palabra10_letra1.value = "";
+            palabra10_letra2.value = "";
+            palabra10_letra3.value = "";
+            palabra10_letra4.value = "";
+            palabra10_letra5.value = "";
+            error();
+          }
+    
+          if (palabra11.toLowerCase() != "hardware") {
+            palabra11_letra1.value = "";
+            palabra11_letra2.value = "";
+            palabra11_letra3.value = "";
+            palabra11_letra4.value = "";
+            palabra11_letra5.value = "";
+            palabra11_letra6.value = "";
+            error();
+          }
+    
+          if (palabra12.toLowerCase() != "ranuras") {
+            palabra12_letra1.value = "";
+            palabra12_letra2.value = "";
+            palabra12_letra3.value = "";
+            palabra12_letra4.value = "";
+            palabra12_letra5.value = "";
+            error();
+          }
+    
+          if (palabra13.toLowerCase() != "teclado") {
+            palabra13_letra1.value = "";
+            palabra13_letra2.value = "";
+            palabra13_letra3.value = "";
+            palabra13_letra4.value = "";
+            palabra13_letra5.value = "";
+            palabra13_letra6.value = "";
+            error();
+          }
+    
+          if (palabra14.toLowerCase() != "sata") {
+            palabra14_letra1.value = "";
+            palabra14_letra2.value = "";
+            palabra14_letra3.value = "";
+            palabra14_letra4.value = "";
+            error();
+          }
+    
+          if (palabra15.toLowerCase() != "microprocesador") {
+            palabra15_letra1.value = "";
+            palabra15_letra2.value = "";
+            palabra15_letra3.value = "";
+            palabra15_letra4.value = "";
+            palabra15_letra5.value = "";
+            palabra15_letra6.value = "";
+            error();
+          }
+    
+          if (palabra16.toLowerCase() != "usb") {
+            palabra16_letra1.value = "";
+            palabra16_letra2.value = "";
+            palabra16_letra3.value = "";
+            palabra16_letra4.value = "";
+            palabra16_letra5.value = "";
+            error();
+          }
+    
+          if (palabra17.toLowerCase() != "pantalla") {
+            palabra17_letra1.value = "";
+            palabra17_letra2.value = "";
+            palabra17_letra3.value = "";
+            palabra17_letra4.value = "";
+            palabra17_letra5.value = "";
+            palabra17_letra6.value = "";
+            error();
+          }
+    
+          if (palabra18.toLowerCase() != "duro") {
+            palabra18_letra1.value = "";
+            palabra18_letra2.value = "";
+            palabra18_letra3.value = "";
+            palabra18_letra4.value = "";
+            palabra18_letra5.value = "";
+            error();
+          }
+    
+          // Corrector de palabras
+          if (palabra1.toLowerCase() == "mouse") {
+            palabra1_letra1.value = "m";
+          }
+    
+          if (palabra2.toLowerCase() == "computadora") {
+            palabra2_letra1.value = "c";
+          }
+    
+          if (palabra3.toLowerCase() == "fuente") {
+            palabra3_letra1.value = "f";
+          }
+    
+          if (palabra5.toLowerCase() == "rom") {
+            palabra5_letra1.value = "r";
+          }
+    
+          if (palabra6.toLowerCase() == "software") {
+            palabra6_letra1.value = "s";
+          }
+    
+          if (palabra7.toLowerCase() == "atx") {
+            palabra7_letra1.value = "a";
+          }
+    
+          if (palabra8.toLowerCase() == "socket") {
+            palabra8_letra1.value = "s";
+          }
+    
+          if (palabra10.toLowerCase() == "cpu") {
+            palabra10_letra1.value = "c";
+          }
+    
+          if (palabra12.toLowerCase() == "ranuras") {
+            palabra12_letra1.value = "r";
+          }
+    
+          if (palabra14.toLowerCase() == "sata") {
+            palabra14_letra1.value = "s";
+          }
+    
+          if (palabra16.toLowerCase() == "usb") {
+            palabra16_letra1.value = "u";
+          }
+    
+          if (palabra18.toLowerCase() == "duro") {
+            palabra18_letra1.value = "d";
+          }
+        }
+      }
+    </script>
+    
+    <img src="veri.png" onClick="verificar()" style="margin: 0 0 0 13%;" />
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer id="footer" class="footer">
+
+      <div class="footer-content">
+        <div class="container">
+  
+          <div class="row g-5">
+            <div class="col-lg-4">
+              <h3 class="footer-heading">Sobre The student newscast</h3>
+              <p>Bienvenido a The student newscast, tu fuente confiable de información actualizada. En este sitio web, te
+                mantendremos al tanto de los acontecimientos más relevantes en el ámbito local, nacional. Nuestro equipo
+                de periodistas está comprometido con brindarte noticias precisas y objetivas para que estés informado en
+                todo momento.</p>
+              <p><a href="about.html" class="footer-link-more">Learn More</a></p>
+            </div>
+            <div class="col-6 col-lg-2">
+              <h3 class="footer-heading">Navegar</h3>
+              <ul class="footer-links list-unstyled">
+                <li><a href="index.html"><i class="bi bi-chevron-right"></i> Inicio</a></li>
+                <li><a href="about.html"><i class="bi bi-chevron-right"></i> About us</a></li>
+              </ul>
+            </div>
+  
+  
+            <div class="col-lg-4">
+  
+  
+            </div>
+  
+            <div class="footer-legal">
+              <div class="container">
+  
+                <div class="row justify-content-between">
+                  <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <div class="copyright">
+                      © Copyright <strong><span>The student newscast</span></strong>. Todos los derechos reservados
+                    </div>
+  
+                    <div class="credits">
+                      Diseñado por Stalin Nazareno Erick Nuñez Polanco elkin
+                    </div>
+  
+                  </div>
+  
+                  <div class="col-md-6">
+                    <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+                      <p>3ro Informatica "B"</p>
+  
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+            </div>
+  
+    </footer>
+
+  </body>
+</html>
+

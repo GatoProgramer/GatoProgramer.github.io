@@ -1,0 +1,38 @@
+
+  
+  .hol {
+    text-align: center;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: 100px 300px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    word-wrap: break-word;
+    max-width: 300px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+
+  .tta {
+    margin: 100px 300px;
+  }
+  
+  
+
+
+
+
+
+
+
+  
+  
